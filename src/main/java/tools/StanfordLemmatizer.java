@@ -7,13 +7,13 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.StringUtils;
 
-import java.util.LinkedList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
 
 /*
     Токенизатор и лемматизатор, использующие библиотеку от Stanford NLP Group
-    Улучшение: из результата удаляются все найденные леммы, являющиеся не словами
+    Из результата удаляются все найденные леммы, являющиеся не словами
  */
 public class StanfordLemmatizer {
 
@@ -31,8 +31,8 @@ public class StanfordLemmatizer {
         this.pipeline = new StanfordCoreNLP(props);
     }
 
-    public List<String> lemmatize(String documentText) {
-        List<String> lemmas = new LinkedList<String>();
+    public HashMap<String, String> lemmatize(String documentText) {
+        HashMap<String, String> lemmas = new HashMap<>();
 
         // create an empty Annotation just with the given text
         Annotation document = new Annotation(documentText);
@@ -45,15 +45,15 @@ public class StanfordLemmatizer {
         for (CoreMap sentence : sentences) {
             // Iterate over all tokens in a sentence
             for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                // Add the token for each word into the list of tokens
+                IOHelper.writeToFileFromNewLine(token.originalText(), "tokens.txt");
                 // Retrieve and add the lemma for each word into the list of lemmas
-                String t = token.get(CoreAnnotations.LemmaAnnotation.class);
-                // Удаляем все леммы, являющиеся не словами
-                if (StringUtils.isAlpha(t)) {
-                    lemmas.add(t);
+                String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
+                if (StringUtils.isAlpha(lemma)) {
+                    lemmas.put(token.originalText(), lemma);
                 }
             }
         }
-
         return lemmas;
     }
 }

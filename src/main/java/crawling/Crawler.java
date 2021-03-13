@@ -4,6 +4,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import tools.IOHelper;
 
 import java.io.*;
 import java.util.HashSet;
@@ -45,8 +46,8 @@ public class Crawler {
 
                 Document document = Jsoup.connect(URL).get();
                 CURRENT_LINKS_COUNT++;
-                saveFile(document);
-                writeIndex(URL);
+                IOHelper.saveFile(document, System.getProperty("user.dir") + "/downloads/" + CURRENT_LINKS_COUNT + ".txt");
+                IOHelper.writeToFileFromNewLine(CURRENT_LINKS_COUNT + " " + URL, indexesPath);
                 System.out.println(">> #" + CURRENT_LINKS_COUNT + " [" + URL + "]");
 
                 Elements linksOnPage = document.select("a[href]");
@@ -56,30 +57,6 @@ public class Crawler {
             } catch (IOException e) {
                 System.err.println("For '" + URL + "': " + e.getMessage());
             }
-        }
-    }
-
-    private void writeIndex(String URL) {
-        try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(indexesPath, true));
-            writer.write(CURRENT_LINKS_COUNT + " " + URL);
-            writer.newLine();
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void saveFile(Document document) {
-        String filename = System.getProperty("user.dir") + "/downloads/" + CURRENT_LINKS_COUNT + ".txt";
-        try {
-            PrintWriter writer = new PrintWriter(filename, "UTF-8");
-            writer.println(document.text());
-            writer.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
         }
     }
 }

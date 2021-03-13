@@ -1,65 +1,54 @@
+import tools.IOHelper;
 import tools.StanfordLemmatizer;
 
 import java.io.*;
 import java.util.*;
 
+/*
+    Обработка и выделение токенов (включая лемматизацию) для выкаченных страниц из папки /downloads
+ */
 public class Main {
-    private static final String outputPath = "output.txt";
+    private static final String lemmasPath = "lemmas.txt";
+
 
     public static void main(String[] args) {
         tokenize();
     }
 
     public static void tokenize() {
-        ArrayList<String> tokens = new ArrayList<>();
         File folder = new File(System.getProperty("user.dir") + "/downloads");
         File[] listOfFiles = folder.listFiles();
 
         StanfordLemmatizer lemmatizer = new StanfordLemmatizer();
+        Map<String, List<String>> uniqueLemmas = new TreeMap<String, List<String>>(String.CASE_INSENSITIVE_ORDER);
 
+        if (listOfFiles == null) {
+            System.out.println("Ensure /downloads folder is not empty");
+            return;
+        }
         for (File file : listOfFiles) {
             if (file.isFile()) {
-                System.out.println("==================================File number " + file.getName()+ "=======================================");
-                List<String> lemmas = lemmatizer.lemmatize(readFromFile(file));
-                for (String l: lemmas){
-                    if(!tokens.contains(l))
-                        tokens.add(l);
+                System.out.println("File " + file.getName() + " is processing");
+                HashMap<String, String> lemmas = lemmatizer.lemmatize(IOHelper.readFromFile(file));
+                for (Map.Entry<String, String> entry : lemmas.entrySet()) {
+                    if (!uniqueLemmas.containsKey(entry.getValue())) {
+                        uniqueLemmas.put(entry.getValue(), new ArrayList<String>());
+                    }
+                    if (!uniqueLemmas.get(entry.getValue()).contains(entry.getKey())) {
+                        uniqueLemmas.get(entry.getValue()).add(entry.getKey());
+                    }
                 }
+                System.out.println("File " + file.getName() + " processing ended");
             }
         }
-        Collections.sort(tokens);
-        for (String l: tokens){
-            writeToken(l);
-        }
-    }
 
-    private static void writeToken(String token) {
-        try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath, true));
-            writer.write(token);
-            writer.newLine();
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private static String readFromFile(File file) {
-        FileInputStream inputStream = null;
-        try {
-            inputStream = new FileInputStream(file);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        StringBuilder resultStringBuilder = new StringBuilder();
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                resultStringBuilder.append(line).append("\n");
+        uniqueLemmas = new TreeMap<String, List<String>>(uniqueLemmas);
+        for (Map.Entry<String, List<String>> entry : uniqueLemmas.entrySet()) {
+            StringBuilder result = new StringBuilder(entry.getKey());
+            for (String s : entry.getValue()) {
+                result.append(" ").append(s);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+            IOHelper.writeToFileFromNewLine(result.toString(), lemmasPath);
         }
-        return resultStringBuilder.toString();
     }
 } 
