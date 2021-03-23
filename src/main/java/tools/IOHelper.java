@@ -24,7 +24,8 @@ public class IOHelper {
         return resultStringBuilder.toString();
     }
 
-    public static List<String> readFromFileByStrings(File file){
+    public static List<String> readFromFileByStrings(String filepath){
+        File file = new File(filepath);
         List<String> strings = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line;

@@ -7,8 +7,7 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.StringUtils;
 
-import java.io.File;
-
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
@@ -28,8 +27,7 @@ public class StanfordLemmatizer {
         Properties props;
         props = new Properties();
         props.put("annotators", "tokenize, ssplit, pos, lemma");
-        File stopWordsFile = new File("stopwords.txt");
-        this.stopWordsList = IOHelper.readFromFileByStrings(stopWordsFile);
+        this.stopWordsList = IOHelper.readFromFileByStrings("files/stopwords.txt");
 
         // StanfordCoreNLP loads a lot of models, so you probably
         // only want to do this once per execution
@@ -51,14 +49,26 @@ public class StanfordLemmatizer {
             // Iterate over all tokens in a sentence
             for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                 String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
-                if (StringUtils.isAlpha(lemma)&& !stopWordsList.contains(lemma.toLowerCase())) {
-                    // Add the token for each word into the list of tokens
-                    IOHelper.writeToFileFromNewLine(token.originalText(), "tokens.txt");
+                if (StringUtils.isAlpha(lemma) && !stopWordsList.contains(lemma.toLowerCase())) {
                     // Retrieve and add the lemma for each word into the list of lemmas
                     lemmas.put(token.originalText(), lemma);
                 }
             }
         }
         return lemmas;
+    }
+
+    public List<String> lemmatizeOneSentence(String requestSentence) {
+        List<String> result = new ArrayList<>();
+        Annotation document = new Annotation(requestSentence);
+        this.pipeline.annotate(document);
+        List<CoreLabel> tokens = document.get(CoreAnnotations.TokensAnnotation.class);
+        for (CoreLabel token : tokens) {
+            String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
+            if (StringUtils.isAlpha(lemma) && !stopWordsList.contains(lemma.toLowerCase()) && !result.contains(lemma)) {
+                result.add(lemma);
+            }
+        }
+        return result;
     }
 }
