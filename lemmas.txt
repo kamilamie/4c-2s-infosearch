@@ -110,7 +110,6 @@ Ablan Ablan
 Ableton Ableton
 Abner Abner
 Aboh Aboh
-Above Above above
 Abraham Abraham
 Abrams Abrams
 Abramson Abramson
@@ -327,7 +326,6 @@ Ahom Ahom
 Ahrens Ahrens
 Ahsan Ahsan
 Ahubudu Ahubudu
-Ai Ai AI
 Aidan Aidan
 Aignan Aignan
 Aiguille Aiguille
@@ -657,7 +655,6 @@ Amur Amur
 Amurru Amurru
 Amy Amy
 Amyntas Amyntas
-An An
 Anachronism Anachronism
 Anaimalai Anaimalai
 Analogue Analogue analogue
@@ -3064,7 +3061,6 @@ Campton Campton
 Camtho Camtho
 Camuni Camuni
 Camus Camus
-Can Can Ca ca can
 Canaan Canaan
 Canada Canada
 Canadians Canadians
@@ -4302,6 +4298,7 @@ Credible Credible credible
 Cree Cree
 Creekmur Creekmur
 Creevey Creevey
+Creole Creole creoles creole
 Crescent Crescent crescent crescents Crescents
 Cresson Cresson
 Cresswell Cresswell
@@ -5137,7 +5134,6 @@ Dominik Dominik
 Dominique Dominique
 Domino Domino
 Domitian Domitian
-Don Don
 Donald Donald
 Donaldson Donaldson
 Donard Donard
@@ -6903,7 +6899,6 @@ Gemengen Gemengen
 Gemilang Gemilang
 Gemma Gemma
 Gems Gems
-Genagene Genagene genagene
 Genbun Genbun
 GendBuntu GendBuntu
 Gendarmerie Gendarmerie
@@ -7336,6 +7331,7 @@ Gram Gram grams
 Gramakas Gramakas
 Gramaphone Gramaphone
 Grameen Grameen
+Grammar Grammar grammar
 Grammy Grammy
 Grampian Grampian
 Gramsci Gramsci
@@ -8560,7 +8556,6 @@ Hypocorism Hypocorism
 Hyung Hyung
 Hyunhee Hyunhee
 Hywel Hywel
-I I Me me i
 IA IA ia
 IAEA IAEA
 IAJIT IAJIT
@@ -8970,7 +8965,6 @@ Irtysh Irtysh
 Irvine Irvine
 Irving Irving
 Irvington Irvington
-Is Is
 Isaac Isaac
 Isaacs Isaacs
 Isaaq Isaaq
@@ -11933,7 +11927,6 @@ McSmith McSmith
 McStay McStay
 McWilliam McWilliam
 Mcgrail Mcgrail
-Me Me ME
 Mead Mead
 Meader Meader
 Meadow Meadow meadows
@@ -13571,7 +13564,6 @@ OSCE OSCE
 OSI OSI Osi
 OSes OSes
 OTRS OTRS
-OUR OUR
 OURNODE OURNODE
 OZN OZN Ozn
 Oak Oak oak oaks
@@ -14513,7 +14505,6 @@ Pictland Pictland
 Picton Picton
 Picts Picts
 Pictus Pictus
-Pidgin Pidgin Pidgins pidgin pidgins
 Pidgins Pidgins
 Piedmont Piedmont
 Piedmontese Piedmontese
@@ -14982,6 +14973,7 @@ Professors Professors
 Profile Profile profile profiles
 Profiles Profiles
 Profound Profound profound
+Prog Prog prog PROG
 Programming Programming programming
 Programs Programs
 Progressive Progressive progressive
@@ -16187,7 +16179,6 @@ Ryklof Ryklof
 Ryszard Ryszard
 Ryukyu Ryukyu
 Rzeczpospolita Rzeczpospolita
-S S s
 SAAPAWU SAAPAWU
 SAARC SAARC Saarc
 SABMiller SABMiller
@@ -19484,7 +19475,6 @@ Veda Veda
 Vedas Vedas
 Vedat Vedat
 Vedavathi Vedavathi
-Vedda Vedda Veddas
 Veddah Veddah Veddahs
 Veddha Veddha
 Veddhas Veddhas
@@ -20777,7 +20767,6 @@ Zwick Zwick
 Zwide Zwide
 Zygmunt Zygmunt
 Zygomycota Zygomycota
-a A a An an AN
 aQuantive aQuantive
 aa AA aa
 aab Aab
@@ -20824,7 +20813,6 @@ abort aborted
 abortion abortion abortions
 abortive abortive
 abound abound abounds abounding
-about About about
 abrasion abrasion
 abrasive abrasive
 abridged abridged
@@ -20910,7 +20898,7 @@ achievem achievem
 achievement achievement achievements Achievement
 acid acid Acid ACID
 acidic acidic
-ack ack ACKs ACKed ACK
+ack ACK ack ACKs ACKed
 acknowledge acknowledged acknowledge acknowledges acknowledging
 acknowledgement acknowledgements acknowledgement
 acknowledgment acknowledgments acknowledgment
@@ -21037,7 +21025,7 @@ affectionately affectionately
 affective Affective
 affiliate affiliated affiliates affiliate
 affiliation affiliations affiliation Affiliation
-affinity affinities Affinities affinity
+affinity Affinities affinities affinity
 affirm affirm affirming affirms affirmed
 affirmation affirmation
 affirmative affirmative
@@ -21058,14 +21046,11 @@ african African
 africanisation Africanisation
 africanization Africanization
 afrocentric Afrocentric
-after after After
 afterlife Afterlife
 aftermath aftermath Aftermath
 afternoon afternoon
 afterward afterward
 afterwards afterwards Afterwards
-again again Again
-against against Against
 agate agate
 agathocle Agathocles
 agdlp AGDLP
@@ -21118,6 +21103,7 @@ ah ah
 ahar Ahar
 ahead ahead Ahead
 ahimsa ahimsa
+ai ai Ai AI
 aid aid Aided Aid aiding aided AID aids Aids
 aida aida
 aide Aide aides aide
@@ -21182,7 +21168,6 @@ alim alim
 alimentation alimentation
 alive alive
 alkaline alkaline
-all All all alls
 alla alla
 allant allant
 allegation allegations
@@ -21244,7 +21229,6 @@ alumnus alumnus alumni
 alveolar alveolar Alveolar
 always always Always
 aly Aly
-am AM am Am
 amalaric Amalaric
 amalgamate amalgamating
 amalgamated amalgamated
@@ -21315,13 +21299,12 @@ anatomically anatomically
 anatomist anatomist
 anatomy Anatomy
 ancestor ancestors ancestor
-ancestral ancestral Ancestral
+ancestral Ancestral ancestral
 ancestry ancestry Ancestry
 anchor anchor anchoring Anchor anchored
 ancien ancien Ancien
 anciens anciens
 anciently anciently
-and And and AND
 andean Andean
 andronovo Andronovo
 anecdotal anecdotal
@@ -21402,7 +21385,6 @@ antivirus antivirus
 antrustione antrustiones
 anxiety ANXIETY
 anxious anxious
-any any Any
 anybody anybody
 anymore anymore
 anyone anyone Anyone
@@ -21599,7 +21581,6 @@ artwork artwork
 arty arty
 aru aru
 aryennes Aryennes
-as As as
 asa asa Asa ASA
 ascend ascends ascending ascended ascend
 ascendance Ascendance
@@ -21674,7 +21655,6 @@ asymmetric asymmetric Asymmetric
 asymmetrical asymmetrical Asymmetrical
 asymmetrically asymmetrically
 async async
-at At at AT
 atakuje atakuje
 athalaric Athalaric
 athanagild Athanagild
@@ -21986,7 +21966,6 @@ bceao BCEAO
 bcm BCM
 bcomm bcomm
 bdi bdi
-be 're were Was been being 's Be Is are was be is Being Are IS ai 'm am Am Ai BE Were Been
 beac BEAC
 beach beach beaches Beach
 beacon beacon beacons
@@ -22006,7 +21985,6 @@ beatify beatified
 beautiful beautiful Beautiful
 beautify beautifying
 beauty beauty Beauty
-because because Because
 beckon beckons
 become became becoming become becomes Became Become Becoming Becomes
 bed bed beds
@@ -22019,7 +21997,6 @@ bedtime bedtime
 beech beech Beech
 bef BEF
 beffroi beffroi
-before before Before
 beg begging Beg
 begar begar Begar
 beggar beggars
@@ -22033,7 +22010,6 @@ behavioral Behavioral behavioral
 behaviour behaviour
 behest behest
 behind behind Behind
-being beings Being being
 belatedly belatedly
 belga belga
 belge belge
@@ -22047,7 +22023,6 @@ belly belly bellies
 belong Belonging belonging belonged belong belongs
 belongings Belongings
 beloved beloved Beloved
-below Below below
 belt belt Belt belts
 bench benches bench Bench
 benchmark benchmark
@@ -22079,7 +22054,6 @@ betel betel
 betray betraying betrayed
 betrayal betrayal
 better better Better
-between between Between
 betwix betwix
 beuk beuks
 beurre beurre
@@ -22309,7 +22283,7 @@ bored Bored
 boring boring Boring
 boroterey boroterey
 borough borough Borough boroughs
-borrow borrowed borrow borrowing borrows Borrowed
+borrow borrowed borrowing borrow borrows Borrowed
 borrowing borrowings Borrowing borrowing
 bose Bose
 bosnian Bosnian
@@ -22319,7 +22293,6 @@ bot bot Bots Bot bots
 botakanda botakanda
 botakandaa botakandaa
 botanist botanist
-both both Both
 botho botho Botho
 bottom bottom Bottom bottomed
 boulangist Boulangist
@@ -22446,7 +22419,7 @@ budget budgets budget Budget budgeted
 budgetary budgetary
 budgeting Budgeting
 budowli budowli
-buffer buffer buffers buffered
+buffer buffered buffer buffers
 bug Bugs Bug bug bugs
 buggy buggy
 bugle bugles Bugle
@@ -22480,7 +22453,7 @@ burgh burghs burgh Burgh
 burglar burglar
 burgo burgo
 burh burh
-burial burial burials Burial Burials
+burial burial Burial burials Burials
 burmese Burmese
 burn Burning burn burnt burned burning Burned
 burning burning Burning
@@ -22497,7 +22470,6 @@ businessman businessman businessmen
 busker busker
 bustard bustard
 busy busy busied
-but But but
 butt butt
 butter butter
 buttercup buttercups
@@ -22509,7 +22481,6 @@ buyer buyer buyers
 buying buying Buying
 buzz buzz
 bwrdd Bwrdd
-by By by BY
 bypass bypass Bypass
 bystander bystanders
 byte bytes BYTE byte Byte
@@ -23535,7 +23506,7 @@ continuity Continuity continuity
 continuous continuous Continuous
 continuously continuously
 contour contours
-contract contract contracting contracts contracted Contract
+contract contract contracts contracting contracted Contract
 contracting contracting
 contraction Contractions Contraction contraction
 contractor contractor contractors
@@ -23759,7 +23730,6 @@ creek creek creeks Creek
 creep crept creep Creep
 cremation cremation
 crematorium crematorium
-creole creoles Creole creole
 creolization Creolization creolization
 crescendo crescendos
 cretin cretins
@@ -24382,7 +24352,7 @@ diadem Diadem
 diagonal diagonals diagonal
 diagram diagram diagrams
 diagramming Diagramming
-dialect dialect Dialect dialects Dialects
+dialect Dialect dialect dialects Dialects
 dialectal dialectal
 dialling Dialling
 dialog dialog
@@ -24501,7 +24471,7 @@ disastrous disastrous
 disavow disavowed
 disband disbanded disbanding
 disc Disc disc discs
-discard discarded discard discards discarding
+discard discarding discarded discard discards
 discern discern
 discernible discernible
 discerningly discerningly
@@ -24689,7 +24659,6 @@ dna DNA
 dniester Dniester
 dnr DNR
 dns DNS
-do does done did Do do doing Did Does Doing du
 doc Docs docs DOC doc Doc
 dock dock
 docking docking
@@ -24747,7 +24716,6 @@ doucouliago Doucouliagos
 doughnut doughnuts
 dove Dove Doves dove
 dovetail dovetailed
-down down Down
 downfall Downfall
 downgrade downgrade
 downhill downhill
@@ -24822,7 +24790,7 @@ drum drums Drum drum
 drumlin drumlin
 drung drung
 drunk drunk
-dry dry Dry dried
+dry Dry dry dried
 drying drying
 dryland dryland
 dsb Dsb
@@ -24862,7 +24830,6 @@ durable Durable durable durables
 duration duration
 durbar Durbar
 duress duress
-during during During DURING
 dust dust
 dusty Dusty dusty
 dutch Dutch
@@ -24892,7 +24859,6 @@ eRDF eRDF
 eShop eShop
 eWeek eWeek
 eac eac
-each each Each
 eacian eacian
 eagduru eagduru
 eager eager
@@ -25775,14 +25741,13 @@ feud feud
 feudal feudal
 feuding feuding
 feuille feuille
-few few Few
 fewer fewer Fewer
 fewest fewest
 ff ff FF
 ffi FFI
 fhtml FHTML
 fiat fiat Fiat
-fiber fiber fibers
+fiber fibers fiber
 fibre fibre
 fibrosis fibrosis
 fibula fibula
@@ -25980,7 +25945,6 @@ foothold foothold
 footnote footnote Footnotes footnotes Footnote
 footprint footprints
 footwork footwork Footwork
-for For for FOR
 foray forays
 forbid forbade forbidden forbidding Forbids Forbidden forbid forbids
 force forces force Force forced forcing Forces
@@ -26128,7 +26092,6 @@ fringe fringe Fringe
 frites frites
 frivolity frivolity
 frog frogs Frog
-from from From
 fromage fromage
 front Front front
 frontal frontal
@@ -26187,7 +26150,6 @@ furnace Furnace furnaces furnace
 furnish furnished
 furore furore
 furry furry
-further furthered further Further furthering
 furthermore Furthermore
 fury fury
 fusil fusil
@@ -26269,6 +26231,7 @@ gemeenteraad gemeenteraad
 gemeinden Gemeinden
 gemstone Gemstone
 gen gen Gen
+genagene genagene Genagene
 gendarme gendarmes
 gender Gender gender genders
 gene Genes gene Gene
@@ -26488,7 +26451,6 @@ graffiti graffiti
 graft grafting grafted
 grain grain grains grained Grain
 grained grained
-grammar grammar Grammar
 grammarian grammarian grammarians
 grammatical grammatical
 grammatically Grammatically grammatically
@@ -26668,7 +26630,7 @@ hangar hangars
 hanoverian Hanoverian
 hanseatic Hanseatic
 haphazard haphazard
-haplogroup haplogroups haplogroup
+haplogroup haplogroup haplogroups
 happen happens happened happen Happen
 happiness Happiness
 happy Happy happy
@@ -26724,7 +26686,6 @@ haughty haughty
 haul hauling
 haunt haunt haunted
 haute haute Haute
-have 've have had has having hath Have Has Having 'd Had
 havoc havoc
 hawaiian Hawaiian
 hawthorn hawthorn
@@ -26733,7 +26694,6 @@ hazelnut hazelnuts
 hb hb HB
 hdi HDI
 hdl hdl
-he him his He he His Him
 head head Head headed Heads heads heading Heading
 headache Headaches Headache
 headcount headcount
@@ -26802,7 +26762,6 @@ herald heralds herald Herald
 heraldic heraldic Heraldic
 heraldry heraldry Heraldry heraldries
 herd herd herding
-here here Here
 hereafter hereafter
 hereby HEREBY
 hereditary hereditary Hereditary
@@ -26815,7 +26774,6 @@ hero heroes Hero hero
 heroic heroic Heroic
 heron heron Heron
 herringbone herringbone
-herself herself
 hesitant hesitant
 hesitation hesitation
 het het Het
@@ -26865,7 +26823,6 @@ hillside hillsides
 hilltop hilltops
 hilly hilly
 hilt hilts hilt
-himself himself Himself
 hind Hind hind
 hinder hinder Hinder hinders hindered hindering
 hindrance hindrance
@@ -26990,7 +26947,6 @@ house house House HOUSE houses housed
 housing housing Housing
 hover Hover hover
 hovercraft hovercraft
-how how How
 however However however
 howsoever howsoever
 hpf HPFS
@@ -27142,7 +27098,6 @@ idol idol Idols
 idr IDR
 idrisid Idrisid
 ie ie IE ies
-if If if
 ifis IFIS
 ifop IFOP
 iframe iframe
@@ -27285,7 +27240,6 @@ impudent impudent
 impulse impulses Impulse impulse
 impulsion impulsion
 impure impure
-in In in IN
 inXile inXile
 inability inability
 inaccuracy inaccuracies
@@ -27295,7 +27249,7 @@ inadequacy inadequacy
 inadequate inadequate
 inadvertently inadvertently
 inalienable inalienable Inalienable
-inanimate Inanimate inanimate
+inanimate inanimate Inanimate
 inappropriate inappropriate
 inasmuch inasmuch
 inaugurate inaugurated
@@ -27716,7 +27670,6 @@ intimidate Intimidated
 intimidating intimidating
 intimidation intimidation
 intituled intituled
-into into Into
 intolerance intolerance
 intoxicant intoxicants
 intoxicating intoxicating
@@ -27837,7 +27790,6 @@ issue issued issues issue Issues Issue issuing ISSUES
 issuer issuer
 issuing issuing
 ist IST ist Ist
-it It it IT
 italiana italiana
 italianise Italianised
 italic italic Italic
@@ -27854,8 +27806,6 @@ itemtype itemtype
 iteration iteration
 ithyphallic ithyphallic
 itinerant itinerant
-its Its its ITS
-itself itself
 ius ius
 ivory ivory Ivory
 ivy ivy Ivy
@@ -27951,7 +27901,6 @@ jurist jurist
 juror jurors
 jury jury juries
 jusqu jusqu
-just just Just
 justifiably justifiably
 justification Justification justifications justification
 justify justified justify justifies Justified
@@ -28334,7 +28283,7 @@ lewisian Lewisian
 lexeme lexemes
 lexical lexical Lexical
 lexicographer lexicographer lexicographers
-lexicon lexicon Lexicon
+lexicon Lexicon lexicon
 lfn LFNs
 lgbt LGBT
 lgpl LGPL
@@ -29184,7 +29133,7 @@ modal modal
 mode mode modes Mode
 model model models modelled Models Model modeled Modeling modeling Modelling modelling
 modeling modeling
-modem modems modem
+modem modem modems
 moderate moderated moderate moderates Moderate
 moderately Moderately moderately
 moderation moderation Moderation
@@ -29281,7 +29230,6 @@ moral moral Moral
 morale morale
 moralism moralism
 morality morality
-more more More
 moreover Moreover moreover
 mores mores
 moribund moribund
@@ -29296,7 +29244,6 @@ mortality mortality Mortality
 mortuary mortuary Mortuary
 mosque mosque Mosque mosques
 moss mosses Moss
-most MOST most Most
 mostly mostly Mostly
 mother mother Mother mothers
 motherboard Motherboard
@@ -29440,14 +29387,12 @@ muxtar muxtar
 mw MW
 mwt MWt
 mxn MXN
-my My my
 mycobiota mycobiota
 mycologist mycologists
 myfile myfile
 myna mynas
 myopic myopic
 myriad myriad
-myself myself
 mysterious Mysterious
 mystery Mystery mysteries
 mystic mystics
@@ -29696,7 +29641,6 @@ nlk NLK
 nlle nlle
 nmi nmi
 nndevhelaho nndevhelaho
-no no No
 nobiliary Nobiliary
 noble Nobles noble Noble nobles
 nobleman noblemen
@@ -29704,7 +29648,7 @@ noblesse noblesse
 noblewoman noblewomen
 nobody nobody Nobodies
 nocturne nocturnes
-node Node nodes node
+node nodes Node node
 nodename nodename
 noframe noframes
 noir noirs Noir noir
@@ -29749,7 +29693,6 @@ nonviolence nonviolence Nonviolence
 nonviolent nonviolent Nonviolent
 noocracy noocracy Noocracy
 noon noon
-nor nor Nor
 nord nord Nord
 nordic Nordic
 norm norms norm Norms Norm
@@ -29776,7 +29719,6 @@ nose nose
 noshade noshade
 nostalgia nostalgia Nostalgias
 nostalgic nostalgic
-not n't Not not
 notable notable Notable notables
 notably notably Notably
 notation notation notations
@@ -29808,7 +29750,6 @@ novial Novial
 novice novice
 noviembre noviembre
 novine novine
-now Now now
 nowadays Nowadays nowadays
 nower Nowers
 nowhere nowhere Nowhere
@@ -29945,8 +29886,6 @@ odissi odissi
 odor OdoR Odor odor
 odour odour
 odyssey Odyssey
-of OF Of of
-off off Off
 offence offence offences
 offend offended
 offense offense
@@ -30002,9 +29941,7 @@ omit omit omitted omitting Omit
 omnia omnia
 omnium omnium
 omundu omundu
-on On on ON
 onb ONB
-once once Once
 one One one ones ONE
 onely onely
 oneness oneness
@@ -30013,7 +29950,6 @@ ongo ongoing
 ongoing ongoing Ongoing
 onion onions Onion onion
 online online Online
-only Only only
 onomasiology Onomasiology
 ons ONS
 onset onset Onset
@@ -30078,7 +30014,6 @@ option option Option options
 optional optional Optional
 optionally optionally
 oql OQL
-or Or or OR
 oral Oral oral
 orally orally
 oranje oranje Oranje
@@ -30143,7 +30078,6 @@ osr OSR
 ostatnie ostatnie
 ostensibly ostensibly Ostensibly
 ostentatious ostentatious
-other others other Other Others
 otherness otherness
 otherwise otherwise Otherwise
 othmanic Othmanic
@@ -30157,12 +30091,9 @@ ouguiya ouguiya
 oui oui Oui
 ounce ounce
 oup OUP
-ours ours
 ourselve OURSELVES
-ourselves ourselves
 ousai ousai
 oust oust
-out Out out outs
 outbreak outbreak outbreaks
 outburst outburst
 outcome outcome outcomes
@@ -30203,7 +30134,6 @@ outta outta
 outward outward
 oval oval
 oven oven ovens
-over over Over
 overall overall Overall
 overarching overarching
 overcome overcome overcame
@@ -30246,7 +30176,6 @@ overwhelmingly overwhelmingly
 ovoid ovoid
 owe owing Owing owes owed owe
 owl OWL owl Owl
-own own owned owns Owning Own
 owner owners owner Owner
 ownership ownership Ownership
 oxen oxen
@@ -30265,7 +30194,7 @@ pack pack Pack packs packed Packing
 package packages package Package packaged
 packager packagers
 packaging Packaging packaging
-packet packet packets Packet
+packet packet Packet packets
 paddy Paddy
 padura padura
 padutin padutin
@@ -30702,6 +30631,7 @@ picture pictures picture Picture pictured Pictures
 pictureless pictureless
 picturesque picturesque Picturesque
 pide PIDE
+pidgin pidgin Pidgin Pidgins pidgins
 pie PIE pied pie Pie
 piece pieces piece Piece
 piecemeal piecemeal
@@ -31233,7 +31163,6 @@ profiling profiling
 profit profit profits Profit
 profitable profitable
 profoundly profoundly
-prog prog Prog PROG
 proglacial proglacial
 program program Program programs Programs programmed
 programmable programmable
@@ -32017,7 +31946,7 @@ repulse repulsing repulsed
 reputation reputation Reputation reputations
 repute reputed
 reputedly reputedly
-request request requesting Request requests requested Requested Requests
+request requesting request Request requests requested Requested Requests
 require required requires require requiring
 requirement requirement requirements Requirements Requirement
 requisite requisite
@@ -32131,7 +32060,7 @@ retour retour
 retracing retracing
 retract retracting
 retraction retraction
-retransmission retransmissions retransmission
+retransmission retransmission retransmissions
 retransmit retransmitted retransmit
 retriangulation retriangulation Retriangulation
 retribution retribution
@@ -32432,7 +32361,6 @@ salvadoran Salvadoran
 samanber samanber
 samaritan Samaritans
 samaya samaya
-same same
 sample sampled sample samples Samples Sample
 sampling sampling samplings
 samudra samudra
@@ -32802,7 +32730,6 @@ shatter shatter shattered
 shave shaved
 shaving shaving
 shawl shawl
-she Her her She she
 shear sheared shear
 sheathe sheathed
 shebang shebang
@@ -32815,7 +32742,7 @@ shek shek
 shekel shekel Shekel
 shelf shelf
 shell shells shell Shell Shells
-shelter shelter shelters sheltered sheltering
+shelter shelters shelter sheltered sheltering
 shelve shelved
 sherd sherds
 sherwanis sherwanis
@@ -32861,7 +32788,6 @@ shortfall shortfall
 shorthand shorthand
 shortly Shortly shortly
 shot shots shot
-should should Should SHOULD
 shoulder shoulder shoulders shouldered
 shout shouts shouted
 shouting shouting
@@ -33098,7 +33024,6 @@ snowy snowy
 snp SNP
 snub snubs
 snuff snuff
-so So so
 soak soaked
 soap soap SOAP soaps
 soar soared soars Soaring soaring
@@ -33149,7 +33074,6 @@ solomonic Solomonic
 solution solution solutions
 solve solve solved solves solving
 somali Somali
-some some Some
 someday someday
 someone someone
 something something
@@ -33544,7 +33468,7 @@ structure structure structured Structure structures Structured Structures
 structured structured
 structuring structuring
 struggle struggle Struggle struggling struggles
-stub stub stubs Stub
+stub stubs stub Stub
 stubborn stubborn
 stubbornly stubbornly
 stucco stucco
@@ -33667,7 +33591,6 @@ successor successor successors Successor
 succinct succinct
 succulent succulent
 succumb succumbed
-such such Such
 sucht sucht
 suck sucks Sucks suck sucking
 sud sud
@@ -33761,7 +33684,7 @@ supply supply supplying supplied Supply supplies
 support support supported Support supporting Supporting supports Supported Supports
 supporter Supporter supporters Supporters supporter
 supportive supportive Supportive
-suppose supposed Suppose suppose
+suppose supposed suppose Suppose
 supposedly supposedly
 suppress suppressing suppressed suppress
 supremacy supremacy Supremacy
@@ -33886,7 +33809,6 @@ systemd systemd
 systemic Systemic systemic
 sytem Sytem
 szczyt szczyt
-t t T
 ta ta
 taal taal
 tab tab
@@ -34087,7 +34009,7 @@ testing Testing testing testings
 testpilot testpilot Testpilot
 teutonic Teutonic
 text Text text texts Texts TEXT
-textbook textbooks textbook Textbook
+textbook textbook textbooks Textbook
 textframe textframes
 textile textiles textile Textile
 textstyle textstyle
@@ -34102,27 +34024,21 @@ th th
 thaler thaler Thaler
 thali thali
 thame thame
-than than Than
 thana thana
 thanda thanda
 thank thanking thank Thank
 thanks thanks Thanks
-that that That
 thatch thatch
-the the THE The
 theater theater Theater theaters
 theatre theatre Theatre theatres
 theatrical theatrical
 theban Theban
 thefreedictionary thefreedictionary
 theft theft
-theirs theirs
 thematic thematic
 thematically thematically
 theme theme Theme themes themed
 themistokle Themistokles
-themselves themselves Themselves
-then Then then
 thence thence
 thenceforth thenceforth
 theocracy theocracies Theocracy
@@ -34142,7 +34058,6 @@ theorist theorists theorist
 theorize theorized
 theory Theory theories theory Theories
 therapeutic therapeutic
-there there There
 thereafter thereafter Thereafter
 thereby thereby
 therefore therefore Therefore
@@ -34153,11 +34068,9 @@ thereon thereon
 thermal thermal Thermal
 thermally thermally
 thermodynamics thermodynamics
-these these These
 thesis thesis Thesis
 thete thetes
 theuderic Theuderic
-they Their They their they them Them
 thick thick
 thicker thicker
 thickness thickness
@@ -34177,14 +34090,12 @@ thirsting thirsting
 thirteen thirteen Thirteen
 thirteenth thirteenth
 thirty Thirty thirty
-this This this THIS
 tho tho
 thopi thopi
 thoren Thorens
 thorn thorn
 thorough thorough
 thoroughly Thoroughly thoroughly
-those those Those
 thou Thou
 though though Though
 thought Thought thought thoughts Thoughts
@@ -34204,7 +34115,6 @@ thrive thrived
 throat throat throated
 throb Throbbing
 throne thrones throne Throne
-through Through through throughs
 throughout throughout Throughout
 throughput throughput
 throw throw threw throwing thrown
@@ -34269,7 +34179,6 @@ tjha tjha
 tld TLD TLDs
 tlhokofetje tlhokofetje
 tnip TNIP
-to To to TO
 toad toad toads
 toadstool toadstools
 toast toast
@@ -34298,7 +34207,6 @@ tongue tongues tongue Tongue
 tonight Tonight
 toning toning
 tonne tonnes tonne
-too too
 tool Tools tools tool Tool tooling
 tooltip tooltip
 tooth teeth tooth
@@ -34721,7 +34629,6 @@ undecorated undecorated
 undecy undecies
 undemocratic undemocratic
 undeniable undeniable
-under under Under
 underage Underage
 underclass underclass
 underdeveloped underdeveloped
@@ -34923,7 +34830,6 @@ unsympathetic unsympathetic
 untapped untapped
 unterwalden Unterwalden
 unthinkable Unthinkable
-until until Until
 untitled Untitled
 untouchability untouchability Untouchability
 untouchable untouchables
@@ -34945,7 +34851,6 @@ unworkable unworkable
 unwritten unwritten Unwritten
 unyielding unyielding
 uote uote
-up Up up UP
 upadinava upadinava
 upanishadic Upanishadic
 upazila upazila
@@ -35096,6 +35001,7 @@ vcr VCR
 veche veche Veche
 ved ved
 vedar Vedars Vedar
+vedda Veddas Vedda
 veddae veddae
 vedi vedi Vedi
 vedic Vedic vedic
@@ -35148,7 +35054,6 @@ version version versions Version Versions
 vert Vert vert
 vertical vertical Vertical
 vertically vertically Vertically
-very very Very
 vessel vessels vessel
 vest vested Vest vest
 vested vested
@@ -35333,7 +35238,7 @@ wage waged wage Wage waging
 wages wages Wages
 waist waist
 waistband waistband
-wait wait Waiting waits waiting waited Wait
+wait wait Waiting waiting waits waited Wait
 waiver waivers
 walk walk Walks walking Walk walked Walking walks
 wall Walls Wall walls wall
@@ -35400,7 +35305,6 @@ wayback wayback Wayback
 wbr wbr
 wcag WCAG
 wdi WDI
-we Us We us we our Our WE
 weak weak
 weaken weaken weakened weakening
 weakening weakening
@@ -35458,31 +35362,25 @@ wettert wettert
 wettest wettest
 wf wf
 whale whale Whale
-what what What WHAT
 whatever Whatever whatever
 whatsoever whatsoever
 wheat wheat wheats Wheat
 wheel wheel wheels Wheel
 wheeled wheeled
-when when When
 whence whence Whence
 whenever whenever Whenever
-where where Where
 whereas Whereas whereas
 whereby whereby
 wherein wherein
 whereupon whereupon
 wherever wherever
 whether whether Whether
-which which Which
 whichever whichever
-while while While
 whilst whilst Whilst
 whim whims
 white white White
 whites whites Whites
 whitespace whitespace
-who who Who WHO
 whoever whoever
 whois WHOIS
 whole Whole whole
@@ -35491,9 +35389,7 @@ wholehouse Wholehouse
 wholesale wholesale
 wholesaler wholesalers
 wholly wholly
-whom Whom whom
 whose whose
-why why Why
 wichtigsten wichtigsten
 wicked Wicked
 wide wide Wide
@@ -35525,7 +35421,6 @@ wilderness wilderness
 wildflower Wildflower wildflowers wildflower
 wildlfower Wildlfowers
 wildly wildly
-will Will will 'll
 willed willed
 willing willing Willing
 willingly willingly
@@ -35552,7 +35447,6 @@ wisest wisest
 wish wish wishes wished Wishing
 wit wit Wit
 witch witch Witch
-with with With
 withdraw withdrawing withdraw withdrew withdrawn
 withdrawal withdrawal
 withered withered
@@ -35707,12 +35601,9 @@ yogurt yogurt
 yoking yoking
 yonder yonder
 yonus yoni
-you your you Your You
 younger younger Younger
 youngest youngest Youngest
 youngster youngsters
-yours yours
-yourself yourself Yourself
 yr yr Yr
 yt yt
 yuddha yuddha

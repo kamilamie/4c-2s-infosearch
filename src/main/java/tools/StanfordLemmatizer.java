@@ -7,6 +7,8 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.StringUtils;
 
+import java.io.File;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
@@ -18,6 +20,7 @@ import java.util.Properties;
 public class StanfordLemmatizer {
 
     protected StanfordCoreNLP pipeline;
+    protected List<String> stopWordsList;
 
     public StanfordLemmatizer() {
         // Create StanfordCoreNLP object properties, with POS tagging
@@ -25,6 +28,8 @@ public class StanfordLemmatizer {
         Properties props;
         props = new Properties();
         props.put("annotators", "tokenize, ssplit, pos, lemma");
+        File stopWordsFile = new File("stopwords.txt");
+        this.stopWordsList = IOHelper.readFromFileByStrings(stopWordsFile);
 
         // StanfordCoreNLP loads a lot of models, so you probably
         // only want to do this once per execution
@@ -45,11 +50,11 @@ public class StanfordLemmatizer {
         for (CoreMap sentence : sentences) {
             // Iterate over all tokens in a sentence
             for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-                // Add the token for each word into the list of tokens
-                IOHelper.writeToFileFromNewLine(token.originalText(), "tokens.txt");
-                // Retrieve and add the lemma for each word into the list of lemmas
                 String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
-                if (StringUtils.isAlpha(lemma)) {
+                if (StringUtils.isAlpha(lemma)&& !stopWordsList.contains(lemma.toLowerCase())) {
+                    // Add the token for each word into the list of tokens
+                    IOHelper.writeToFileFromNewLine(token.originalText(), "tokens.txt");
+                    // Retrieve and add the lemma for each word into the list of lemmas
                     lemmas.put(token.originalText(), lemma);
                 }
             }
