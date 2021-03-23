@@ -3,6 +3,8 @@ package tools;
 import org.jsoup.nodes.Document;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /*
     Класс, инкапсулирующий работу с файлами (запись/чтение)
@@ -20,6 +22,19 @@ public class IOHelper {
             e.printStackTrace();
         }
         return resultStringBuilder.toString();
+    }
+
+    public static List<String> readFromFileByStrings(File file){
+        List<String> strings = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                strings.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return strings;
     }
 
     public static void writeToFileFromNewLine(String value, String path){
