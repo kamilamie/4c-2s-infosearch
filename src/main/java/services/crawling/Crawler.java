@@ -1,4 +1,4 @@
-package crawling;
+package services.crawling;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

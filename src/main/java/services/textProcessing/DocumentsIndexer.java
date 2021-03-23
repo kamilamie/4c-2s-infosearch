@@ -1,3 +1,5 @@
+package services.textProcessing;
+
 import tools.IOHelper;
 import tools.StanfordLemmatizer;
 
@@ -15,7 +17,11 @@ public class DocumentsIndexer {
     private static Map<String, List<String>> lemmasIndexes = new TreeMap<String, List<String>>(String.CASE_INSENSITIVE_ORDER);
     private static Map<String, List<String>> uniqueLemmas = new TreeMap<String, List<String>>(String.CASE_INSENSITIVE_ORDER);
 
-    public void tokenize() {
+    public static void main(String[] args) {
+        new DocumentsIndexer().processDocuments();
+    }
+
+    public void processDocuments() {
         StanfordLemmatizer lemmatizer = new StanfordLemmatizer();
 
         File folder = new File(DOWNLOADS_PATH);
@@ -67,7 +73,7 @@ public class DocumentsIndexer {
     private void writeInfoForEachLemmaToFile (Map<String, List<String>> lemmasMap, String filename){
         //запись леммы и соответствующей ей информации в файл
         for (Map.Entry<String, List<String>> entry : lemmasMap.entrySet()){
-            StringBuilder result = new StringBuilder(entry.getKey());
+            StringBuilder result = new StringBuilder(entry.getKey() + ":");
             for (String s : entry.getValue()) {
                 result.append(" ").append(s);
             }
