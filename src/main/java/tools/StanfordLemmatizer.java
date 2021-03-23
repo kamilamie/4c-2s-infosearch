@@ -28,7 +28,7 @@ public class StanfordLemmatizer {
         Properties props;
         props = new Properties();
         props.put("annotators", "tokenize, ssplit, pos, lemma");
-        File stopWordsFile = new File("stopwords.txt");
+        File stopWordsFile = new File("files/stopwords.txt");
         this.stopWordsList = IOHelper.readFromFileByStrings(stopWordsFile);
 
         // StanfordCoreNLP loads a lot of models, so you probably
@@ -52,8 +52,6 @@ public class StanfordLemmatizer {
             for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                 String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
                 if (StringUtils.isAlpha(lemma)&& !stopWordsList.contains(lemma.toLowerCase())) {
-                    // Add the token for each word into the list of tokens
-                    IOHelper.writeToFileFromNewLine(token.originalText(), "tokens.txt");
                     // Retrieve and add the lemma for each word into the list of lemmas
                     lemmas.put(token.originalText(), lemma);
                 }

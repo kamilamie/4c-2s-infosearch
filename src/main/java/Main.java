@@ -8,8 +8,9 @@ import java.util.*;
     Обработка и выделение токенов (включая лемматизацию) для выкаченных страниц из папки /downloads
  */
 public class Main {
-    private static final String LEMMAS_PATH = "lemmas.txt";
-    private static final String INDEXES_PATH = "invertedIndexes.txt";
+    private static final String UNIQUE_TOKENS_PATH = "files/tokens.txt";
+    private static final String UNIQUE_LEMMAS_PATH = "files/lemmas.txt";
+    private static final String INDEXES_PATH = "files/invertedIndexes.txt";
     private static Map<String, List<String>> lemmasIndexes = new TreeMap<String, List<String>>(String.CASE_INSENSITIVE_ORDER);
     private static Map<String, List<String>> uniqueLemmas = new TreeMap<String, List<String>>(String.CASE_INSENSITIVE_ORDER);
 
@@ -40,7 +41,7 @@ public class Main {
             }
         }
 
-        writeInfoForEachLemmaToFile(uniqueLemmas, LEMMAS_PATH);
+        writeInfoForEachLemmaToFile(uniqueLemmas, UNIQUE_LEMMAS_PATH);
         writeInfoForEachLemmaToFile(lemmasIndexes, INDEXES_PATH);
     }
 
@@ -51,6 +52,7 @@ public class Main {
         }
         //если такая лемма уже есть, но токен еще не встречался, добавить токен в ее список
         if (!uniqueLemmas.get(entry.getValue()).contains(entry.getKey())) {
+            IOHelper.writeToFileFromNewLine(entry.getKey(), UNIQUE_TOKENS_PATH);
             uniqueLemmas.get(entry.getValue()).add(entry.getKey());
         }
     }
