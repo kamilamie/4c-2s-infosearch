@@ -7,10 +7,7 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.util.StringUtils;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 /*
     Токенизатор и лемматизатор, использующие библиотеку от Stanford NLP Group
@@ -70,5 +67,31 @@ public class StanfordLemmatizer {
             }
         }
         return result;
+    }
+
+    public HashMap<String, Double> countLemmasTF(String documentText) {
+        int allWords = 0;
+        HashMap<String, Double> lemmasMatches = new HashMap<>();
+        Annotation document = new Annotation(documentText);
+        this.pipeline.annotate(document);
+
+        List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
+        for (CoreMap sentence : sentences) {
+            for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                String word = token.originalText();
+                if (StringUtils.isAlpha(word) && !stopWordsList.contains(word.toLowerCase())) {
+                    allWords++;
+                }
+                String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
+                if (StringUtils.isAlpha(lemma) && !stopWordsList.contains(lemma.toLowerCase())) {
+                    double currCount = lemmasMatches.getOrDefault(lemma, 0.0);
+                    lemmasMatches.put(lemma, currCount + 1);
+                }
+            }
+        }
+        for (Map.Entry<String, Double> entry : lemmasMatches.entrySet()) {
+            entry.setValue(entry.getValue() / allWords);
+        }
+        return lemmasMatches;
     }
 }

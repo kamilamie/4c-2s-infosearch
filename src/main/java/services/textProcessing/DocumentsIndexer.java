@@ -73,7 +73,7 @@ public class DocumentsIndexer {
     private void writeInfoForEachLemmaToFile (Map<String, List<String>> lemmasMap, String filename){
         //запись леммы и соответствующей ей информации в файл
         for (Map.Entry<String, List<String>> entry : lemmasMap.entrySet()){
-            StringBuilder result = new StringBuilder(entry.getKey() + ":");
+            StringBuilder result = new StringBuilder(entry.getKey().toLowerCase() + ":");
             for (String s : entry.getValue()) {
                 result.append(" ").append(s);
             }
