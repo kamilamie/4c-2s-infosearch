@@ -17,7 +17,7 @@ public class BooleanSearch {
         System.out.println("Enter words separated by space tab: ");
         String request = sc.nextLine();
         StanfordLemmatizer lemmatizer = new StanfordLemmatizer();
-        List<String> requestLemmas = lemmatizer.getUniqueLemmas(request);
+        List<String> requestLemmas = lemmatizer.lemmatizeOneSentence(request);
 
         System.out.println("The result of the request are pages with numbers: " + booleanSearch(requestLemmas));
     }
