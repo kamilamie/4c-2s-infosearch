@@ -34,9 +34,18 @@ Remaining files: [12, 10, 11] <br/>
 The result of the request are pages with numbers: [12, 10, 11] <br/>
 
 ### Vector Search
-Осуществляет векторный поиск по документам.
+Осуществляет векторный поиск по документам. Ищет топ 5 результатов (документов).
 Формат ввода поискового запроса: _<слово1><пробел><слово2><пробел>...<словоN>_<br/>
 Пример вывода для запроса __unionism kingdom__: <br/>
+Processing of file: 29.txt
+Processing of file: 15.txt
+Processing of file: 100.txt
+Processing of file: 14.txt
+Processing of file: 28.txt
+...
+Processing of file: 24.txt
+Processing of file: 30.txt
+{10=16.64980922464746, 11=16.68049337832973, 7=16.6885395213146, 12=16.688987951691217, 45=16.68908368888738}
 
 
 ### TF-IDF Counter
