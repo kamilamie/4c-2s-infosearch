@@ -10,6 +10,7 @@ import java.util.Map;
 
 public class TfIdfCounter {
     private static final String TF_IDF_PATH = "files/tf-idf.txt";
+    private static final String IDF_PATH = "files/idf.txt";
     private static final String INDEXES_PATH = "files/invertedIndexes.txt";
     private static final String DOWNLOADS_PATH = System.getProperty("user.dir") + "/downloads";
 
@@ -33,14 +34,15 @@ public class TfIdfCounter {
         for (String wordIndexes : invertedIndexes) {
             String word = wordIndexes.split(": ")[0];
             int matchDocuments = wordIndexes.split(": ")[1].split(" ").length;
-            wordsIdf.put(word, (double) documentsCount / matchDocuments);
+            double idf = (double) documentsCount / matchDocuments;
+            wordsIdf.put(word, idf);
+            IOHelper.writeToFileFromNewLine(word + " " + idf, IDF_PATH);
         }
 
         for (File file : listOfFiles) {
             System.out.println(file.getName());
             if (file.isFile()) {
-                IOHelper.writeToFileFromNewLine("===============================File "
-                        + file.getName() + "===============================", TF_IDF_PATH);
+                IOHelper.writeToFileFromNewLine(file.getName() + ":", TF_IDF_PATH);
                 HashMap<String, Double> fileLemmasTF = lemmatizer.countLemmasTF(IOHelper.readFromFile(file));
                 for (Map.Entry<String, Double> entry : fileLemmasTF.entrySet()) {
                     double tf = entry.getValue();
@@ -48,7 +50,7 @@ public class TfIdfCounter {
                         continue;
                     }
                     double idf = wordsIdf.get(entry.getKey().toLowerCase());
-                    IOHelper.writeToFileFromNewLine(entry.getKey() + " " + idf + " " + tf * idf, TF_IDF_PATH);
+                    IOHelper.writeToFile(entry.getKey() + " " + tf * idf + ";", TF_IDF_PATH);
                 }
             }
         }

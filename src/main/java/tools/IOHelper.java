@@ -41,8 +41,18 @@ public class IOHelper {
     public static void writeToFileFromNewLine(String value, String path){
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(path, true));
-            writer.write(value);
             writer.newLine();
+            writer.write(value);
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void writeToFile(String value, String path){
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(path, true));
+            writer.write(value);
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
