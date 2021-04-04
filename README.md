@@ -33,17 +33,31 @@ Word kingdom was found in next files: [29, 15, 100, 28, 16, 17, 13, 12, 10, 38, 
 Remaining files: [12, 10, 11] <br/>
 The result of the request are pages with numbers: [12, 10, 11] <br/>
 
+### Vector Search
+Осуществляет векторный поиск по документам.
+Формат ввода поискового запроса: _<слово1><пробел><слово2><пробел>...<словоN>_<br/>
+Пример вывода для запроса __unionism kingdom__: <br/>
+
 
 ### TF-IDF Counter
-Файл __files/tf-idf.txt__ содержит значения IDF и TF-IDF для каждого слова в каждом документе. Формат строки: <термин><пробел><idf><пробел><tf-idf><\n>
+Файл __files/tf-idf.txt__ содержит значения TF-IDF для каждого слова в каждом документе. Формат строки: <файл>:<термин><пробел><tf-idf>;<термин><пробел><tf-idf>;...<\n>
 * TF - отношение числа вхождений слова в документ к общему числу слов документа.
 * IDF - отношение общего количества документов к числу документов, содержащих данное слово.
 * TF-IDF - произведение TF и IDF. Большой вес в TF-IDF получат слова с высокой частотой в пределах конкретного документа и с низкой частотой употреблений в других документах
+Файл __files/idf.txt__ содержит значения IDF для всех лемм в каждом документе. Формат строки: <термин><пробел><idf><\n>
 
 ## Инструменты
 
 ### IOHelper
-Класс, инкапсулирующий работу с файлами (запись/чтение).
+Класс, инкапсулирующий работу с файлами (запись/чтение). Методы:
+* readFromFile(File file)
+* readFromFileByStrings(String filepath)
+* writeToFileFromNewLine(String value, String path)
+* writeToFile(String value, String path)
+* saveFile(Document document, String path)
 
 ### StanfordLemmatizer
-Класс, инкапсулирующий работу с токенизацией и лемматизацией. Использует библиотеку Stanford NLP Group.
+Класс, инкапсулирующий работу с токенизацией и лемматизацией. Использует библиотеку Stanford NLP Group. Методы:
+* lemmatize(String documentText)
+* lemmatizeOneSentence(String requestSentence)
+* countLemmasTF(String documentText)
